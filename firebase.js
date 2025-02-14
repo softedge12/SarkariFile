@@ -1,11 +1,11 @@
 
 var firebaseConfig = {
-    apiKey: "AIzaSyBmmKkfC7S8GJvAlTQ7YjwKKPIsps-MUPk",
-    authDomain: "loginportal-48b5e.firebaseapp.com",
-    databaseURL: "https://loginportal-48b5e-default-rtdb.firebaseio.com",
-    projectId: "loginportal-48b5e",
-    storageBucket: "loginportal-48b5e.firebaseapp.com",
-    messagingSenderId: "566180631348",
-    appId: "1:566180631348:web:55415b14542e61557a8b61"
+    apiKey: "AIzaSyA1Xr9y4LPny9Lbl7X2a-MVBn-NZfhFTq0",
+    authDomain: "sarkarifile-3bc98.firebaseapp.com",
+    databaseURL: "https://sarkarifile-3bc98-default-rtdb.firebaseio.com",
+    projectId: "sarkarifile-3bc98",
+    storageBucket: "sarkarifile-3bc98.firebasestorage.app",
+    messagingSenderId: "92977543757",
+    appId: "1:92977543757:web:e15d65769c90a67c773a04"
 };
 firebase.initializeApp(firebaseConfig);
