@@ -36,7 +36,7 @@ function signUp() {
 
     firebase.auth().createUserWithEmailAndPassword(email, password)
         .then(() => {
-            alert("आप सफलतापूर्वक साइनअप हो गए हैं। कृपया 24 घंटे बाद लॉगिन करें।");
+            alert("आप सफलतापूर्वक साइनअप हो गए हैं। आपके भुगतान के सत्यापन के उपरांत 24 घंटे के अन्दर आपकी लॉगिन सक्रिय हो जाएगी।");
         })
         .catch((error) => {
             document.getElementById("signupError").innerHTML = error.message;
