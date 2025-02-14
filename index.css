@@ -82,3 +82,12 @@ body {
 .toggle-btn:hover {
     background: #218838;
 }
+
+/* Spinner को सही जगह पर केंद्र में लाने के लिए */
+#loadingSpinner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
